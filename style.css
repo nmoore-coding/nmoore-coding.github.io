@@ -1,0 +1,57 @@
+body {
+    /* background-image: url("https://media.idownloadblog.com/wp-content/uploads/2018/02/Nomad-5-desktop-The-Arnot.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    background: url("background.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.signup-btn {
+    margin: 0 auto;
+    background-color: #E9330C;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 5px;
+}
+
+.signup-btn:hover {
+    cursor: pointer;
+    transition: transform .3s;
+    transform: scale(1.1);
+}
+
+.signup-btn:active {
+    background-color: #EE4B27;
+}
+
+.signup-btn:focus {
+    outline: 0;
+}
